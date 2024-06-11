@@ -7,7 +7,7 @@ import retrofit2.http.GET
 import retrofit2.http.PATCH
 import retrofit2.http.POST
 
-interface UserService {
+interface  UserService {
     @GET(ApiInference.ENDPOINT_USERS)
     fun getUsers(): Call<List<User>>
 
